@@ -5,13 +5,23 @@ html, body {
   min-height: 100%;
 }
 
+ul{
+list-style-type: none;
+padding: 0; /* Remove padding */
+margin: 0; /*remove margin*/
+}
+
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: url(../images/backgrounds/architecture.jpg) center;
+  height: 100px;
+  background-repeat: repeat-y;
+  background-attachment:scroll;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
-}
+  background-position: space ;
+  background-size: cover;
+  opacity: 0.95; 
+  }
 
 .wrapper {
   margin: 0 auto;
@@ -21,7 +31,7 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background:#fff;
 }
 
 h1, h2 {
